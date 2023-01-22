@@ -1,0 +1,91 @@
+name: Тест
+timeLimit: 00
+passingScore: 30
+questions:
+  - question: Висит груша нельзя скушать.
+    weight: 5
+    questionType: "text"
+    answers:
+      - isTrue: true
+        answer: лампочка
+        answerType: "input"
+  - question: 2+2
+    weight: 10
+    questionType: "text"
+    answers:
+      - isTrue: true
+        answer: "4"
+        answerType: "text"
+      - isTrue: false
+        answer: "5"
+        answerType: "text"
+      - isTrue: false
+        answer: "22"
+        answerType: "text"
+  - question: пример работы с текстом
+    weight: 10
+    questionType: "text"
+    answers:
+      - isTrue: true
+        answer: банан
+        answerType: "text"
+      - isTrue: true
+        answer: яблоко
+        answerType: "text"
+      - isTrue: false
+        answer: малина
+        answerType: "text"
+  - question: пример работы с изображением
+    weight: 10
+    path: example/img0.jpg
+    questionType: "image"
+    answers:
+      - isTrue: true
+        path: example/img1.jpg
+        answerType: "image"
+      - isTrue: true
+        path: example/img2.jpg
+        answerType: "image"
+      - isTrue: false
+        path: example/img3.jpg
+        answerType: "image"
+  - question: пример работы с видео
+    weight: 5
+    path: example/video.mp4
+    questionType: "video"
+    answers:
+      - isTrue: true
+        answer: "яблоко"
+        answerType: "text"
+      - isTrue: false
+        answer: "морковь"
+        answerType: "text"
+      - isTrue: false
+        path: example/img1.jpg
+        answerType: "image"
+  - question: пример работы с аудио
+    weight: 5
+    path: example/audio.mp3
+    questionType: "audio"
+    answers:
+      - isTrue: false
+        path: example/7.mp3
+        answerType: "audio"
+      - isTrue: true
+        path: example/image4.jpg
+        answerType: "image"
+      - isTrue: false
+        answer: "22"
+        answerType: "text"
+  - question: Висит груша нельзя скушать.
+    weight: 5
+    questionType: "text"
+    answers:
+      - isTrue: true
+        answer: лампочка
+        answerType: "input"
+description: my first sample test, for my program
+version:
+  date: 18.12.22
+  info: main
+  v: 0.0.2
