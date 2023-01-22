@@ -2,7 +2,6 @@ __pycache__
 build
 dist
 packenv
-*.spec
 utils.py
 
 # Byte-compiled / optimized / DLL files
